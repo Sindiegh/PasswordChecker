@@ -1,0 +1,6 @@
+Password should not be empty!
+1password should be at least be 8 characters long
+3password should have at least one uppercase letter
+3password should have at least one lowercase letter
+(password should have at least one digit
+4password should have at least one Special character
