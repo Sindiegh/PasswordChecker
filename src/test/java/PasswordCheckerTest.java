@@ -26,20 +26,20 @@ public class PasswordCheckerTest {
     @Test
     public  void digitPassword() {
         assertEquals("password should have at least one digit",
-          PasswordChecker.passwordIsValid("asdfghjkJ"));
+          PasswordChecker.passwordIsValid("hghghghUkk"));
     }@Test
     public  void passwordSpecialChar() {
         assertEquals("password should have at least one special character",
-          PasswordChecker.passwordIsValid("Asdfghjkt6"));
+          PasswordChecker.passwordIsValid("jdjdjdjKK9"));
     }
     @Test
     public  void passwordIsValid() {
         assertEquals("Password is valid!",
-          PasswordChecker.passwordIsValid("AsdfghjkJ9!"));
+          PasswordChecker.passwordIsValid("gigi&me2!"));
     }
     @Test
     public  void passwordIsOk() {
-        assertTrue(PasswordChecker.passwordIsOk("asdfghjkJ9!"));
+        assertTrue(PasswordChecker.passwordIsOk("jdjdjdjkk2@"));
     }
 
 }
